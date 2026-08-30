@@ -1,0 +1,65 @@
+:root{
+    --black: #1e1e1e;
+    --white: #ffffff;
+    --font-mono: "Lora", "Courier New", monospace;
+}
+body{
+    background-color: #a5d8ff;  
+}
+.black{
+    background-color: var(--black);
+}
+button{
+    border: 2px solid var(--black);
+    border-radius: 30px;
+    font-size: 1vw;
+    width: 8vw;
+    height: 3vw;
+    font-family: var(--font-mono);
+}
+#PvBButton{
+    background-color: #88BDF2;
+}
+#PvPButton{
+    background-color: #505081;
+}
+#PvPOnlineButton{
+    background-color: #68BA7F;
+}
+
+#PvBButton:hover{
+    background-color: #57799b;
+}
+#PvPButton:hover{
+    background-color: #2c2c47;
+}
+#PvPOnlineButton:hover{
+    background-color: #40724e;
+}
+.white{
+    background-color: var(--white);
+}
+.black, .white{
+    margin: 1px;
+    width: 1vw;
+    height: 1vw;
+}
+#pongScreen{
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    aspect-ratio: var(--cols, 32) / var(--rows, 32);
+
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 32), 1fr);
+    grid-template-rows: repeat(var(--rows, 32), 1fr);
+
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 3%;
+}
+#score{
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-mono);
+}
