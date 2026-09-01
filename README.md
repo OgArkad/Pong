@@ -1,6 +1,7 @@
 # Pong
 
 This is **classical pong** made with HTML, CSS and JS. Because of the challenge I made the screen 32x32 pixels(they're actually divs). I implemented PvP mode and PvB too(PvP online maybe will come out later).＼(ﾟｰﾟ＼)
+![Pong](logo.png)
 
 # Features 
 
