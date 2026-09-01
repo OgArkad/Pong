@@ -63,3 +63,9 @@ button{
     font-size: 3rem;
     font-family: var(--font-mono);
 }
+#modes{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
